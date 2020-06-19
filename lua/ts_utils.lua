@@ -105,7 +105,7 @@ end
 
 function M.has_parser(lang)
   local lang = lang or api.nvim_buf_get_option(0, 'filetype')
-  return #api.nvim_get_runtime_file('parser/' .. lang .. '.*', false) > 0
+  return #lang > 0 and #api.nvim_get_runtime_file('parser/' .. lang .. '.*', false) > 0
 end
 
 -- is dest in a parent of source

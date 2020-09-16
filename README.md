@@ -2,7 +2,7 @@
 
 [![Gitter](https://badges.gitter.im/completion-nvim/community.svg)](https://gitter.im/completion-nvim/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 # completion-treesitter
-Treesitter source and more for [completion-nvim](https://github.com/haorenW1025/completion-nvim).
+Treesitter source and more for [completion-nvim](https://github.com/nvim-lua/completion-nvim).
 
 This is a basic completion source based on the treesitter api of neovim.
 

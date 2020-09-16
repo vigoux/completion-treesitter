@@ -12,12 +12,12 @@ This is a basic completion source based on the treesitter api of neovim.
 
 This plugin requires the following plugins:
 
-- [completion-nvim](https://github.com/haorenW1025/completion-nvim)
+- [completion-nvim](https://github.com/nvim-lua/completion-nvim)
 - [nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
 
 Install them like this (vim-plugged or your favorite package manager):
 ```vim
-Plug 'haorenW1025/completion-nvim'
+Plug 'nvim-lua/completion-nvim'
 Plug 'nvim-treesitter/nvim-treesitter'
 Plug 'nvim-treesitter/completion-treesitter'
 ```
